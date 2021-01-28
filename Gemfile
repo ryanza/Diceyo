@@ -15,7 +15,6 @@ gem 'haml-rails'
 gem 'sendgrid'
 gem "font-awesome-rails"
 gem 'figaro'
-gem 'onchain'
 gem 'rqrcode'
 gem 'bootstrap-material-design'
 gem 'jquery-nouislider-rails'
