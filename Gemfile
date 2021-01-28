@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.7.2'
-gem 'rails', '4.1.6'
+gem 'rails', '4.1.16'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -38,8 +38,8 @@ group :production do
   gem 'unicorn'
 end
 group :test do
-  gem 'capybara'
-  gem 'capybara-webkit'
+  #gem 'capybara'
+  #gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'simplecov'
